@@ -1,0 +1,20 @@
+Neat
+
+NeuroEcolution of Augmenting Topologies is an evolutionary algorithm thet creates Artifical neural networks. The population of individual 
+genomes is maintained. Each genome has two sets of genes that build ANN. Node and connection genes. Fitness function in order to get a single value
+of the quality of the genome. When the algorithm reaches a maximum value for the fitness function output, we terminate the algo.
+
+We are basically evolving the neural network, randomly change values, remove/add connections, and add more nodes. This is a type of genetic algorithm. 
+
+Inputs: Bird y, distance between the bird and the top/bottom of the pipe
+Output: the change in the rotation and velocity of the bird, jump or not (what the program should do)
+Activation Function: tanh, check if greater than 1.5
+population size: 100 birds (how many in each generations), take the best and bread them so that they the next is better
+fitness function:  the most important part becuase it shows how good the birds are doing, distance
+max generations: 30
+
+
+When the species goes extint they are removed from the mix of population. Nodes can be input/output and genomes are the connections. 
+Mutate power and mutate rate is at what rate the genomes will change. We are have default values. The connections maybe active or not (dropout). 
+
+The survival_threshold of the specifies. 
